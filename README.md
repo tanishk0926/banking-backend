@@ -6,6 +6,27 @@ This project simulates a real-world banking system with user authentication, acc
 
 ---
 
+## Live Demo
+
+🚀 Deployed on Render
+
+**Base URL**
+
+https://backend-ledger-f4bt.onrender.com
+
+### API Endpoints
+
+| Method | Endpoint |
+|----------|----------|
+| POST | https://backend-ledger-f4bt.onrender.com/api/auth/register |
+| POST | https://backend-ledger-f4bt.onrender.com/api/auth/login |
+| POST | https://backend-ledger-f4bt.onrender.com/api/auth/logout |
+| POST | https://backend-ledger-f4bt.onrender.com/api/accounts |
+| GET | https://backend-ledger-f4bt.onrender.com/api/accounts |
+| GET | https://backend-ledger-f4bt.onrender.com/api/accounts/balance/:accountId |
+| POST | https://backend-ledger-f4bt.onrender.com/api/transactions |
+| POST | https://backend-ledger-f4bt.onrender.com/api/transactions/system/initial-funds |
+
 ## Features
 
 ### Authentication
