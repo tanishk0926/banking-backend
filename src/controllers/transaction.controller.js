@@ -231,13 +231,6 @@ async function createInitialFundsTransaction(req, res) {
         message: "Initial funds transaction completed successfully",
         transaction: transaction
     })
-
-    return res.status(201).json({
-        message: "Initial funds transaction completed successfully",
-        transaction: transaction
-    })
-
-
 }
 module.exports = {createTransaction , createInitialFundsTransaction}
 
